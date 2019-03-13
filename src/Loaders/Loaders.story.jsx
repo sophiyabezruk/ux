@@ -28,122 +28,122 @@ export default ({ storiesOf }) => (
   storiesOf('hz/Loaders', module)
     .add('Default', () => (
       <Story>
-        <LineSpin color="#fff" />
+        <LineSpin color="#1890ff" />
       </Story>
     ))
     .add('ScaleRipple', () => (
       <Story>
-        <ScaleRipple color="#fff" type="rapid" />
+        <ScaleRipple color="#1890ff" type="rapid" />
       </Story>
     ))
     .add('ScaleRippleMulti', () => (
       <Story>
-        <ScaleRippleMulti color="#fff" />
+        <ScaleRippleMulti color="#1890ff" />
       </Story>
     ))
     .add('LineScaleRandom', () => (
       <Story>
-        <LineScaleRandom color="#fff" />
+        <LineScaleRandom color="#1890ff" />
       </Story>
     ))
     .add('LineScale', () => (
       <Story>
-        <LineScale color="#fff" />
+        <LineScale color="#1890ff" />
       </Story>
     ))
     .add('LinePulseOut', () => (
       <Story>
         <div style={{ padding: 30 }}>
-          <LinePulseOut color="#fff" type="default" />
+          <LinePulseOut color="#1890ff" type="default" />
         </div>
         <div style={{ padding: 30 }}>
-          <LinePulseOut color="#fff" type="rapid" />
+          <LinePulseOut color="#1890ff" type="rapid" />
         </div>
       </Story>
     ))
     .add('BallsZigZagDeflect', () => (
       <Story>
-        <BallsZigZagDeflect color="#fff" />
+        <BallsZigZagDeflect color="#1890ff" />
       </Story>
     ))
     .add('BallsZigZag', () => (
       <Story>
-        <BallsZigZag color="#fff" />
+        <BallsZigZag color="#1890ff" />
       </Story>
     ))
     .add('BallsTriangleTrace', () => (
       <Story>
-        <BallsTriangleTrace color="#fff" />
+        <BallsTriangleTrace color="#1890ff" />
       </Story>
     ))
     .add('BallSpin', () => (
       <Story>
-        <BallSpin color="#fff" />
+        <BallSpin color="#1890ff" />
       </Story>
     ))
     .add('BallScaleRandom', () => (
       <Story>
-        <BallScaleRandom color="#fff" />
+        <BallScaleRandom color="#1890ff" />
       </Story>
     ))
     .add('BallScaleMulti', () => (
       <Story>
-        <BallScaleMulti color="#fff" />
+        <BallScaleMulti color="#1890ff" />
       </Story>
     ))
     .add('BallScale', () => (
       <Story>
-        <BallScale color="#fff" />
+        <BallScale color="#1890ff" />
       </Story>
     ))
     .add('BallRotate', () => (
       <Story>
-        <BallRotate color="#fff" />
+        <BallRotate color="#1890ff" />
       </Story>
     ))
     .add('BallPulseSync', () => (
       <Story>
-        <BallPulseSync color="#fff" />
+        <BallPulseSync color="#1890ff" />
       </Story>
     ))
     .add('BallPulseRise', () => (
       <Story>
-        <BallPulseRise color="#fff" />
+        <BallPulseRise color="#1890ff" />
       </Story>
     ))
     .add('BallPulse', () => (
       <Story>
-        <BallPulse color="#fff" />
+        <BallPulse color="#1890ff" />
       </Story>
     ))
     .add('BallGridPulse', () => (
       <Story>
         <div style={{ padding: 30 }}>
-          <BallGridPulse color="#fff" />
+          <BallGridPulse color="#1890ff" />
         </div>
         <div style={{ padding: 30 }}>
-          <BallGridPulse color="#fff" type="beat" />
+          <BallGridPulse color="#1890ff" type="beat" />
         </div>
       </Story>
     ))
     .add('BallClipRotatePulse', () => (
       <Story>
-        <BallClipRotatePulse color="#fff" />
+        <BallClipRotatePulse color="#1890ff" />
       </Story>
     ))
     .add('BallClipRotateMultiple', () => (
       <Story>
-        <BallClipRotateMultiple color="#fff" />
+        <BallClipRotateMultiple color="#1890ff" />
       </Story>
     ))
     .add('BallClipRotate', () => (
       <Story>
-        <BallClipRotate color="#fff" />
+        <BallClipRotate color="#1890ff" />
       </Story>
     ))
     .add('BallBeat', () => (
       <Story>
-        <BallBeat color="#fff" />
+        <BallBeat color="#1890ff" />
       </Story>
     ))
 );
