@@ -1,10 +1,24 @@
+import i18 from 'i18next';
+
+i18.init({
+  lng: 'en',
+  debug: true,
+  resources: {
+    en: {
+      translation: {
+        key: 'hello world',
+        test: 'test key {{anything}}',
+      },
+    },
+  },
+});
+
 export default function createUappMock({ locale }) {
   const user = {};
   const api = {
     fetch: (...args) => console.log('api.get', ...args),
   };
-  const t = a => (a === 'locale' ? locale : a);
-  const i18 = { t };
+  const t = a => (a === 'locale' ? locale : i18.t(a));
   const config = {};
   const uapp = {
     i18,
